@@ -9,8 +9,8 @@ const Home = () => {
                 Website Development Onboarding Form
             </h1>
             <div className="flex flex-col mt-[70px] gap-[100px]">
-                {/* <Package />
-                <Builder /> */}
+                <Package />
+                <Builder />
                 <WebsiteType />
             </div>
         </div>
