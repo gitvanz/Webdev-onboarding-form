@@ -3,7 +3,7 @@ const WebsiteType = () => {
   return (
     <section className=" flex flex-col justify-center items-center w-full">
         <div className="grid gap-[54px]">
-        <h2 className="text-[15px] sm:text-[24px] md:text-[36px] font-semibold">
+        <h2 className="text-[20px] sm:text-[30px] md:text-[36px] font-semibold">
                 3. Select Your Website Type
             </h2>
 
