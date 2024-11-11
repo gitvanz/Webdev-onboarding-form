@@ -34,9 +34,15 @@ const Carousel: React.FC<CarouselProps> = ({ imageList, autoScrollInterval = 300
   }, [autoScrollInterval]); // Re-run effect only if the autoScrollInterval changes
 
   return (
-    <div className="relative w-full max-w-3xl max-h-16 mx-auto">
+    <div className="relative w-full max-w-3xl mx-auto">
+      <div className='mb-11'>
+        <h1 className='text-3xl font-bold bm-11'>4. Choose Your Template</h1>
+        <p className='text-lg'>
+        Select a customizable template (more customization available for all types):
+        </p>
+      </div>
       {/* Carousel Container */}
-      <div className="overflow-hidden relative rounded-lg">
+      <div className="overflow-hidden relative rounded-lg max-h-[500px]">
         {/* Image Wrapper */}
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -49,7 +55,7 @@ const Carousel: React.FC<CarouselProps> = ({ imageList, autoScrollInterval = 300
               key={idx}
               src={src}
               alt={`Slide ${idx + 1}`}
-              className="w-full flex-shrink-0 object-cover"
+              className="w-full max-h-[500px] flex-shrink-0 object-contain"
             />
           ))}
         </div>
@@ -57,13 +63,13 @@ const Carousel: React.FC<CarouselProps> = ({ imageList, autoScrollInterval = 300
         {/* Navigation Buttons */}
         <button
           onClick={handlePrev}
-          className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full opacity-50 hover:opacity-100"
+          className="absolute text-3xl top-1/2 left-4 transform -translate-y-1/2 text-black p-2 rounded-full opacity-50 hover:opacity-100"
         >
           &#10094;
         </button>
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full opacity-50 hover:opacity-100"
+          className="absolute text-3xl top-1/2 right-4 transform -translate-y-1/2 text-black p-2 rounded-full opacity-50 hover:opacity-100"
         >
           &#10095;
         </button>
