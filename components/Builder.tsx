@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const WebsiteType = () => {
   return (
-    <section className="flex flex-col justify-center items-end md:mx-[32px] mx-[10px]">
+    <section className="flex flex-col justify-center items-center md:mx-[32px] mx-[10px]">
       <div className="flex flex-col gap-[50px]">
         <h2 className="sm:text-[36px] text-[24px] font-bold md:text-start text-center">
           2. Choose Your Website Builder{" "}
           <span className="font-normal">(Available with All Packages)</span>
         </h2>
 
-        <div className="flex justify-center items-center flex-col gap-[50px]">
+        <div className="justify-center items-center flex-col gap-[50px]">
           {/* Wordpress */}
           <div className="flex flex-col lg:flex-row items-center justify-center gap-[50px]">
             <div className="flex flex-col gap-[24px] max-w-[446px]">
@@ -78,6 +78,7 @@ const WebsiteType = () => {
               alt="WordPress.png"
               width={400}
               height={250}
+              className=""
             />
           </div>
 
@@ -89,6 +90,7 @@ const WebsiteType = () => {
               alt="WordPress2.png"
               width={400}
               height={250}
+              className=""
             />
 
             <div className="flex flex-col gap-[24px] max-w-[454px]">
