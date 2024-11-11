@@ -78,7 +78,6 @@ const WebsiteType = () => {
               alt="WordPress.png"
               width={400}
               height={250}
-              className="aspect-[8/5] sm:aspect-[4/3] w-full"
             />
           </div>
 
@@ -90,7 +89,6 @@ const WebsiteType = () => {
               alt="WordPress2.png"
               width={400}
               height={250}
-              className="aspect-[8/5] sm:aspect-[4/3] w-full"
             />
 
             <div className="flex flex-col gap-[24px] max-w-[454px]">
