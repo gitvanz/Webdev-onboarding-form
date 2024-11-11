@@ -3,9 +3,9 @@ import Image from "next/image";
 const Package = () => {
     return (
   <>
-    <section className="flex justify-center items-center flex-col gap-[50px]">
+    <section className="flex flex-col justify-center items-center gap-[50px]">
         <h2 className="text-[36px] font-semibold text-start">1. Select Your Package</h2>
-      <div className="flex flex-wrap gap-[60px]">
+      <div className="flex flex-col md:flex-row lg:flex-row gap-[60px]">
         {/* Card Essential*/}
         <div className="max-w-[370px]">
             {/* whitebackground */}
@@ -133,7 +133,7 @@ const Package = () => {
         
       </div>
       {/* Customized Package */}
-      <div className="border-2 border-darkOrange max-w-[900px] mx-[270px] top-[1338px] left-[270px] items-center">
+      <div className="border-2 border-darkOrange max-w-[900px] mx-[270px] top-[1338px] left-[270px] items-center rounded-lg">
         <div className="pt-[32px] px-[50px] pb-[20px]">
           <h2 className="text-[32px] font-bold gap-[10px] text-center text-darkOrange mb-[32px]">
             Customized Package

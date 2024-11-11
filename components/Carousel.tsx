@@ -34,7 +34,7 @@ const Carousel: React.FC<CarouselProps> = ({ imageList, autoScrollInterval = 300
   }, [autoScrollInterval]); // Re-run effect only if the autoScrollInterval changes
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto">
+    <div className="relative w-full max-w-3xl max-h-16 mx-auto">
       {/* Carousel Container */}
       <div className="overflow-hidden relative rounded-lg">
         {/* Image Wrapper */}
