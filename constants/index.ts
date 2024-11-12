@@ -109,3 +109,113 @@ export const WebTemplate = [
         title: 'Template 10',
     },
 ];
+
+ export const carousel1 = [
+    '/assets/png/carousel1/template1.1.png',
+    '/assets/png/carousel1/template1.2.png',
+    '/assets/png/carousel1/template1.3.png',
+    '/assets/png/carousel1/template1.4.png',
+    '/assets/png/carousel1/template1.5.png',
+    '/assets/png/carousel1/template1.6.png',
+    '/assets/png/carousel1/template1.7.png',
+
+  
+  ];
+  export const carousel2 = [
+    '/assets/png/carousel2/template1.1.png',
+    '/assets/png/carousel2/template1.2.png',
+    '/assets/png/carousel2/template1.3.png',
+    '/assets/png/carousel2/template1.4.png',
+    '/assets/png/carousel2/template1.5.png',
+    '/assets/png/carousel2/template1.6.png',
+    '/assets/png/carousel2/template1.7.png',
+
+  
+  ];
+  export const carousel3 = [
+    '/assets/png/carousel3/template1.1.png',
+    '/assets/png/carousel3/template1.2.png',
+    '/assets/png/carousel3/template1.3.png',
+    '/assets/png/carousel3/template1.4.png',
+    '/assets/png/carousel3/template1.5.png',
+    '/assets/png/carousel3/template1.6.png',
+    '/assets/png/carousel3/template1.7.png',
+
+  
+  ];
+
+  export const carousel4 = [
+    '/assets/png/carousel4/template1.1.png',
+    '/assets/png/carousel4/template1.2.png',
+    '/assets/png/carousel4/template1.3.png',
+    '/assets/png/carousel4/template1.4.png',
+    '/assets/png/carousel4/template1.5.png',
+    '/assets/png/carousel4/template1.6.png',
+    '/assets/png/carousel4/template1.7.png',
+
+  
+  ];
+  export const carousel5 = [
+    '/assets/png/carousel5/template1.1.png',
+    '/assets/png/carousel5/template1.2.png',
+    '/assets/png/carousel5/template1.3.png',
+    '/assets/png/carousel5/template1.4.png',
+    '/assets/png/carousel5/template1.5.png',
+    '/assets/png/carousel5/template1.6.png',
+
+  
+  ];
+  export const carousel6 = [
+    '/assets/png/carousel6/template1.1.png',
+    '/assets/png/carousel6/template1.2.png',
+    '/assets/png/carousel6/template1.3.png',
+    '/assets/png/carousel6/template1.4.png',
+    '/assets/png/carousel6/template1.5.png',
+    '/assets/png/carousel6/template1.6.png',
+    '/assets/png/carousel6/template1.7.png',
+
+  
+  ];
+  export const carousel7 = [
+    '/assets/png/carousel7/template1.1.png',
+    '/assets/png/carousel7/template1.2.png',
+    '/assets/png/carousel7/template1.3.png',
+    '/assets/png/carousel7/template1.4.png',
+    '/assets/png/carousel7/template1.5.png',
+    '/assets/png/carousel7/template1.6.png',
+
+  
+  ];
+  export const carousel8 = [
+    '/assets/png/carousel8/template1.1.png',
+    '/assets/png/carousel8/template1.2.png',
+    '/assets/png/carousel8/template1.3.png',
+    '/assets/png/carousel8/template1.4.png',
+    '/assets/png/carousel8/template1.5.png',
+    '/assets/png/carousel8/template1.6.png',
+    '/assets/png/carousel8/template1.7.png',
+
+  
+  ];
+  export const carousel9 = [
+    '/assets/png/carousel9/template1.1.png',
+    '/assets/png/carousel9/template1.2.png',
+    '/assets/png/carousel9/template1.3.png',
+    '/assets/png/carousel9/template1.4.png',
+    '/assets/png/carousel9/template1.5.png',
+    '/assets/png/carousel9/template1.6.png',
+    '/assets/png/carousel9/template1.7.png',
+
+  
+  ];
+  export const carousel10 = [
+    '/assets/png/carousel10/template1.1.png',
+    '/assets/png/carousel10/template1.2.png',
+    '/assets/png/carousel10/template1.3.png',
+    '/assets/png/carousel10/template1.4.png',
+    '/assets/png/carousel10/template1.5.png',
+    '/assets/png/carousel10/template1.6.png',
+    '/assets/png/carousel10/template1.7.png',
+
+  
+  ];

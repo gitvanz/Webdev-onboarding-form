@@ -1,7 +1,12 @@
 import Builder from '@/components/Builder';
+import CustomForm from '@/components/forms/CustomForm';
+import MainCarousel from '@/components/MainCarousel';
 import Package from '@/components/Package';
 import WebsiteType from '@/components/WebsiteType';
-import CustomForm from '@/components/forms/CustomForm';
+
+
+
+
 
 const Home = () => {
     return (
@@ -13,6 +18,7 @@ const Home = () => {
                 <Package />
                 <Builder />
                 <WebsiteType />
+                <MainCarousel />
                 <CustomForm />
             </div>
         </div>
