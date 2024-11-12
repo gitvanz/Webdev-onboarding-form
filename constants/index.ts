@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const WebPackage = [
     {
         id: '0',
@@ -109,3 +110,13 @@ export const WebTemplate = [
         title: 'Template 10',
     },
 ];
+=======
+const images = [
+    '/assets/png/template1.1.png',
+    '/assets/png/template1.2.png',
+    '/assets/png/template1.3.png',
+    '/assets/png/template1.4.png',
+    '/assets/png/template1.5.png',
+  
+  ];
+>>>>>>> c11ad5762362c37c7458d73401813ec27fb32695

@@ -1,7 +1,6 @@
 import Builder from '@/components/Builder';
 import Package from '@/components/Package';
 import WebsiteType from '@/components/WebsiteType';
-
 import CustomForm from '@/components/forms/CustomForm';
 
 const Home = () => {
