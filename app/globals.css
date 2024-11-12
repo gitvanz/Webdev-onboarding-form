@@ -5,3 +5,21 @@
 .h1 {
     @apply text-[2.5rem] font-bold;
 }
+
+@layer utilities {
+    .shad-select-trigger {
+        @apply bg-white  placeholder:text-black border-black h-11 focus:ring-0 focus:ring-offset-0 !important;
+    }
+
+    .shad-select-content {
+        @apply bg-white border-black !important;
+    }
+
+    .shad-select-item-active {
+        @apply bg-primary text-white !important; /* Change bg-blue-500 to your preferred color */
+    }
+
+    .shad-error {
+        @apply text-red-700 font-medium !important;
+    }
+}

@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 export default {
+    darkMode: ['class'],
     content: [
         './pages/**/*.{js,ts,jsx,tsx,mdx}',
         './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -11,10 +12,10 @@ export default {
             colors: {
                 primary: '#FF6A0B',
                 secondary: '#E59600',
-                accent: '#952A8B',
-                darkOrange: '#E55000',
+                accent: '#E55000',
+                purple: '#952A8B',
             },
         },
     },
-    plugins: [],
+    plugins: [require('tailwindcss-animate')],
 } satisfies Config;

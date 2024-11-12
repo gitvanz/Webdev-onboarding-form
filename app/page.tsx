@@ -2,6 +2,8 @@ import Builder from '@/components/Builder';
 import Package from '@/components/Package';
 import WebsiteType from '@/components/WebsiteType';
 
+import CustomForm from '@/components/forms/CustomForm';
+
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center">
@@ -12,6 +14,7 @@ const Home = () => {
                 <Package />
                 <Builder />
                 <WebsiteType />
+                <CustomForm />
             </div>
         </div>
     );
